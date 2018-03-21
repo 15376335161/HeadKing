@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="bannerView" destination="gOd-UY-lZ1" id="MUw-v1-MhW"/>
+                <outlet property="loginButton" destination="BuR-Ng-zcu" id="6jA-Zj-jHj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="622"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gOd-UY-lZ1">
+                    <rect key="frame" x="0.0" y="0.0" width="367" height="311"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BuR-Ng-zcu">
+                    <rect key="frame" x="35" y="476" width="297" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ZiB-2T-fi6"/>
+                    </constraints>
+                    <state key="normal" title="微信登录">
+                        <color key="titleColor" red="0.66107726097106934" green="0.89894169569015503" blue="0.44303929805755615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonAction:" destination="-1" eventType="touchUpInside" id="lsh-Q9-igl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gOd-UY-lZ1" secondAttribute="trailing" id="2wN-1T-w6Y"/>
+                <constraint firstItem="BuR-Ng-zcu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="Frj-xT-1oU"/>
+                <constraint firstItem="gOd-UY-lZ1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NVO-Qt-Oia"/>
+                <constraint firstItem="gOd-UY-lZ1" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/2" id="T9S-D0-9XT"/>
+                <constraint firstItem="gOd-UY-lZ1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="coQ-ol-ddX"/>
+                <constraint firstItem="BuR-Ng-zcu" firstAttribute="top" secondItem="gOd-UY-lZ1" secondAttribute="bottom" constant="165" id="l91-kk-KJg"/>
+                <constraint firstAttribute="trailing" secondItem="BuR-Ng-zcu" secondAttribute="trailing" constant="35" id="rya-Mg-Lmr"/>
+            </constraints>
+            <point key="canvasLocation" x="28.5" y="-11"/>
+        </view>
+    </objects>
+</document>
