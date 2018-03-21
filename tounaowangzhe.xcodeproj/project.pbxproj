@@ -1958,7 +1958,7 @@
 					"$(PROJECT_DIR)/tounaowangzhe/Frame/AliPay",
 					"$(PROJECT_DIR)/tounaowangzhe/Frame/JPush",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.youmeng.jikedai;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmeng.headKing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2008,7 +2008,7 @@
 					"$(PROJECT_DIR)/tounaowangzhe/Frame/AliPay",
 					"$(PROJECT_DIR)/tounaowangzhe/Frame/JPush",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.youmeng.jikedai;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmeng.headKing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

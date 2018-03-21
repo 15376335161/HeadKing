@@ -10,7 +10,7 @@
 
 #define HTTPURL @""
 #define HTTPIMAGEURL @""
-#define PrivalStr   @"5a69569f9583bf8a07c13c47d0e19128"
+#define PrivalStr   @""
 
 @interface HttpClient ()
 @end
